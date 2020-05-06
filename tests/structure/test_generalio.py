@@ -107,12 +107,10 @@ def test_saving_with_extra_args(suffix):
      ("HD21", "H"),
      ("1H", "H"),
      ("CL", "C"),
-     ("Cl", "Cl"),
-     ("He", "He"),
      ("HE", "H"),
      ("SD", "S"),
      ("NA", "N"),
-     ("Na", "Na"),
+     ("NX", "N"),
      ("QWERT", "")],
 )
 def test_guess_element(name, expected):
